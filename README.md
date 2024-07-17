@@ -40,7 +40,7 @@ See the `/docs` folder. [Pipeline Scan](https://docs.veracode.com/r/Pipeline_Sca
 * Spring boot
 * MariaDB
 
-## Development
+### Development
 
 To build the container run this:
 ```
