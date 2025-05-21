@@ -19,7 +19,7 @@ jobs:
           appname: 'RRRTEST'
           createprofile: false
           filepath: 'app/target/verademo.war'
-          vid: '${{ secrets.API_ID }}'
+          vid: '0bc7fda03726e57ce9b66dc59021bebc8c90afb130877c264e941ca4a0316baca00b46b21c87b95291494669b21d15f4d20abd145bd09d0d5ba975db8832fda2'
           vkey: '${{ secrets.API_KEY }}'
 #          createsandbox: 'true'
 #          sandboxname: 'SANDBOXNAME'
