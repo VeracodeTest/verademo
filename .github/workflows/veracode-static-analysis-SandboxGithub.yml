@@ -16,8 +16,8 @@ jobs:
       - name: Veracode Upload And Scan
         uses: veracode/veracode-uploadandscan-action@0.2.8
         with:
-          appname: 'VeraDemo'
-          createprofile: 'true'
+          appname: 'Andrei Doltu Interview'
+          createprofile: 'false'
           filepath: 'app/target/verademo.war'
           vid: '${{ secrets.VERACODE_API_ID }}'
           vkey: '${{ secrets.VERACODE_API_KEY }}'
