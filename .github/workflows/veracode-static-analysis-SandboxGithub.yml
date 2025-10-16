@@ -27,3 +27,5 @@ jobs:
           exclude: '*.js'
           include: '*.war'
           criticality: 'VeryHigh'
+          deleteincompletescan: 2
+          selected: 'true'
